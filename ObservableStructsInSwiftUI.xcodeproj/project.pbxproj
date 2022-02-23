@@ -11,6 +11,7 @@
 		1DAA29ED27C6B7C200235AA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA29EC27C6B7C200235AA9 /* ContentView.swift */; };
 		1DAA29EF27C6B7C800235AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAA29EE27C6B7C800235AA9 /* Assets.xcassets */; };
 		1DAA29F227C6B7C800235AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAA29F127C6B7C800235AA9 /* Preview Assets.xcassets */; };
+		1DAA29F927C6B92F00235AA9 /* WrappedStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA29F827C6B92F00235AA9 /* WrappedStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1DAA29EC27C6B7C200235AA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DAA29EE27C6B7C800235AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DAA29F127C6B7C800235AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DAA29F827C6B92F00235AA9 /* WrappedStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappedStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				1DAA29EC27C6B7C200235AA9 /* ContentView.swift */,
 				1DAA29EE27C6B7C800235AA9 /* Assets.xcassets */,
 				1DAA29F027C6B7C800235AA9 /* Preview Content */,
+				1DAA29F827C6B92F00235AA9 /* WrappedStruct.swift */,
 			);
 			path = ObservableStructsInSwiftUI;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DAA29F927C6B92F00235AA9 /* WrappedStruct.swift in Sources */,
 				1DAA29ED27C6B7C200235AA9 /* ContentView.swift in Sources */,
 				1DAA29EB27C6B7C200235AA9 /* ObservableStructsInSwiftUIApp.swift in Sources */,
 			);
