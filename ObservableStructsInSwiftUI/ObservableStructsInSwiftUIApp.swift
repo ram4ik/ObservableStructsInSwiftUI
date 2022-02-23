@@ -11,7 +11,7 @@ import SwiftUI
 struct ObservableStructsInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(person: Person(name: "Name", age: 42))
         }
     }
 }
